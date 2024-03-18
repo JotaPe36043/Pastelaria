@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+}
+
+html{
+  font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  html{
+    font-size: 12px;
+  }
+  
+}
+
+#root{
+  width: 100%;
+  height: 100vh;
+}
+
+#home{
+  background-image: url(./assets/bg-name.jpg);
+}
+
+#eathere{
+  background-image: url(./assets/bg-eathere.jpg);
+}
+
+#menu{
+  background-image: url(https://img.freepik.com/fotos-gratis/vista-frontal-de-gutabs-saborosos-bolos-quentes-finos-com-carne-na-superficie-azul_179666-44196.jpg?t=st=1710791220~exp=1710794820~hmac=5bcdba071af2da506dedd874523e53720eda8cbb1d972eb37aeb9bf770c1ed0d&w=1380);
+}
